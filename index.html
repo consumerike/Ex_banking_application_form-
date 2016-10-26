@@ -31,16 +31,20 @@
 
 	<label for="employer">Employer</label>
 	<input type="text" name="employer">
-	
-	<label for="address">Address</label>
-	<input type="text" name="address">
+	<br>
+	<br>
 
+	<label>LOAN TYPE:</label>
+
+	<br>
 	<select>
-		<option value="Commercial">Commercial</option>
-		<option value="Real Estate">Real Estate</option>
-		<option value="Personal">Personal</option>
-		<option value="Mortgage">Mortgage</option>
-		<option value="Requested amount of loan">Requested amount of loan</option>
+		<optgroup label="Loan Type">
+			<option value="Commercial">Commercial</option>
+			<option value="Real Estate">Real Estate</option>
+			<option value="Personal">Personal</option>
+			<option value="Mortgage">Mortgage</option>
+			<option value="Requested amount of loan">Requested amount of loan</option>
+		</optgroup>
 	</select>
 
 	<label for="5 years">5 years</label>
@@ -61,19 +65,19 @@
 	</fieldset>
 
 	<LEGEND>ADDITIONAL COMMENTS</LEGEND>
-	<textarea name="additional comments" rows="4" cols="4" default="Add additional comments">
+	<textarea name="additional comments" rows="30" cols="100" default="Add additional comments">
 	</textarea>
 
 	<fieldset>
 		<legend>Contact information</legend>
 		<label for="email"></label>
-		<input type="email" name="email" id="email">
+		<input type="email" name="email" id="email" value="email">
 
 		<label for="telephone"></label>
-		<input type="tel" name="tel" id="telephone">
+		<input type="tel" name="tel" id="telephone" value="telephone">
 
 		<label for="linkedin"></label>
-		<input type="url" name="LinkedIn_url" id="linkedin">
+		<input type="url" name="LinkedIn_url" id="linkedin" value="LinkedIN URL">
 
 
 	</fieldset>
